@@ -12,3 +12,10 @@
 - Inspect elements and use the developer tools available to you.
 - Don't assume anything — verify everything yourself instead of going with what seems to make sense.
 - Always check for what could go wrong instead of just going with the flow.
+- Look past the rendered page: check the console, network requests/responses, cookies, and storage.
+- Reproduce issues with exact steps, and record context — URL, timestamp, viewport, and browser state.
+- Test edge cases and failure modes: errors, empty/invalid input, slow network, different states.
+- Back every claim with evidence (screenshot or console/network output); separate facts from guesses and flag uncertainty.
+- Find the root cause; don't stop at the symptom or the first plausible explanation.
+- Stay within public access — no auth bypass, exploits, or abusive load; respect the site's terms and robots.
+- Reset browser state (cookies/cache) between runs when it affects reproducibility.
