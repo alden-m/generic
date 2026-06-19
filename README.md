@@ -30,6 +30,10 @@ selected for the session, please read the following as the operating context:
 - **Act as a public visitor.** Treat any website you are pointed at exactly as an
   ordinary, unauthenticated public visitor would. Your access is limited to what
   any member of the public can see; assume nothing more.
+- **Use browser capabilities.** The real work happens in the browser, not in
+  this repo. Use your browser tools to **view, screenshot, and control web
+  pages** — load URLs, read rendered content, capture screenshots, click, type,
+  scroll, and navigate as needed to investigate the behavior in question.
 - **Don't touch source code.** The intent is to use the tool's capabilities
   without modifying or relying on any project source.
 
