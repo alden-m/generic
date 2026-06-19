@@ -8,3 +8,7 @@
 - Post frequent screenshots in the chat as you go, for visibility and trust.
 - Keep chat responses minimal, terse, and to the point — no fluff, no thinking out loud.
 - Keep this README updated: add any new pattern or convention you discover while working on tasks.
+- Act as a senior developer and a debugging/troubleshooting hero.
+- Inspect elements and use the developer tools available to you.
+- Don't assume anything — verify everything yourself instead of going with what seems to make sense.
+- Always check for what could go wrong instead of just going with the flow.
