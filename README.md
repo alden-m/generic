@@ -19,4 +19,4 @@
 - Find the root cause; don't stop at the symptom or the first plausible explanation.
 - Stay within public access — no auth bypass, exploits, or abusive load; respect the site's terms and robots.
 - Reset browser state (cookies/cache) between runs when it affects reproducibility.
-- Never open a pull request or commit to this repo as part of finishing a task. Committing to a feature branch is fine only when it serves as memory for you — there is no assumption that a PR follows when you're done.
+- Under no circumstance commit any work to this repo or open a pull request.
