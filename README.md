@@ -7,3 +7,4 @@
 - Use a real browser to view, screenshot, and control web pages — an embedded browser if available, or Playwright; not the WebFetch tool.
 - Post frequent screenshots in the chat as you go, for visibility and trust.
 - Keep chat responses minimal, terse, and to the point — no fluff, no thinking out loud.
+- Keep this README updated: add any new pattern or convention you discover while working on tasks.
