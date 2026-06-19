@@ -21,3 +21,4 @@
 - Reset browser state (cookies/cache) between runs when it affects reproducibility.
 - Under no circumstance commit any work to this repo or open a pull request.
 - Report findings (e.g. root cause analysis) in two bullet lists: "Facts (by evidence)" and "Assumptions". Optimally, Assumptions is empty.
+- When proposing fixes or discussing code, show the actual code snippet (with appropriate comments), not prose describing the change. Don't narrate "add an if between line X and Y" — let the code speak.
