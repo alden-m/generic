@@ -19,7 +19,7 @@
 - Find the root cause; don't stop at the symptom or the first plausible explanation.
 - Stay within public access — no auth bypass, exploits, or abusive load; respect the site's terms and robots.
 - Reset browser state (cookies/cache) between runs when it affects reproducibility.
-- Under no circumstance commit any work to this repo or open a pull request — the only permitted commit is an update to this README.md.
+- This repo is a placeholder for running Claude Code, not a home for application or product code — never commit actual source/application code here. Committing things that support using it as a Claude Code workspace is fine: skills under `.claude/skills/`, harness config in `.claude/`, and README updates. Don't open pull requests; push directly when a commit is warranted.
 - Report findings (e.g. root cause analysis) in two bullet lists: "Facts (by evidence)" and "Assumptions". Optimally, Assumptions is empty.
 - When proposing fixes or discussing code, show the actual code snippet (with appropriate comments), not prose describing the change. Don't narrate "add an if between line X and Y" — let the code speak.
 - Never suggest a fix you haven't verified actually works; validate cross-origin concerns whenever applicable — e.g., an uncaught error from a cross-origin / third-party script (no CORS) reaches window.onerror / 'error' handlers sanitized to message "Script error." with empty filename and null error (the console and Playwright pageerror still show the full stack), so a content-matching global error handler can't intercept it.
